@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calculator-buttons.css">
+</head>
+<body>
+<h3 id="h3">CALCULATOR</h3>
+<input readonly type="text" name="" id="inp"></input>
+<br><br>
+<div class="div">
+
+<div>
+    <button onclick="buttons(7)" class="pro0">7</button>
+    <button onclick="buttons(8)" class="pro0">8</button>
+    <button onclick="buttons(9)" class="pro0">9</button>
+    <button onclick="clr2()"class="pro3">C</button>
+    <button onclick="clr()" class="pro3">X</button>
+</div><br>
+<div>
+    <button onclick="buttons(4)" class="pro0">4</button>
+    <button onclick="buttons(5)" class="pro0">5</button>
+    <button onclick="buttons(6)" class="pro0">6</button>
+    <button onclick="buttons('%')" id="mod">%</button>
+    <button onclick="buttons('*')" class="pro2">x</button>
+</div><br>
+<div>
+    <button onclick="buttons(1)" class="pro0">1</button>
+    <button onclick="buttons(2)" class="pro0">2</button>
+    <button onclick="buttons(3)" class="pro0">3</button>
+    <button onclick="buttons('/')" class="pro4">/</button>
+    <button onclick="buttons('-')" class="pro2">-</button>
+</div><br>
+<div>
+    <button onclick="buttons(',')" class="pro1">,</button>
+    <button onclick="buttons(0)"   class="pro0">0</button>
+    <button onclick="buttons('.')" class="pro1">.</button>
+    <button onclick="eq()" class="pro1">=</button>
+    <button onclick="buttons('+')" class="pro5">+</button>
+</div>
+
+</div>
+
+<script src="calculator-buttons.js"></script>
+</body>
+</html>

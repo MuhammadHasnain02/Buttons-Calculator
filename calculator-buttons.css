@@ -1,0 +1,76 @@
+#h3{
+text-align: center;
+}
+#inp{
+padding: 6px;
+margin-left: 277px;
+width: 150px;
+}
+.div{
+margin-left: 285px;
+width: 160px;
+}
+#mod{
+background-color: rgb(76, 240, 213);
+border-radius: 6px;
+}
+#mod:hover{
+box-shadow: 0px 0px 1px 1px;
+}
+/* ----------------------- */
+.pro0{
+padding-left: 10px;
+border-radius: 6px;
+border-color: rgb(3, 3, 99);
+background-color: rgb(39, 206, 232);
+}
+.pro0:hover{
+box-shadow: 0px 0px 1px 1px;
+}
+
+.pro1{
+padding-left: 9.5px;
+border-radius: 4px;
+background-color: rgb(126, 124, 124);
+color: white;
+}
+.pro1:hover{
+background-color: rgb(rgb(206, 201, 201))
+}
+
+.pro2{
+padding-left: 10px;
+background-color: rgb(76, 240, 213);
+border-radius: 6px;
+}
+.pro2:hover{
+box-shadow: 0px 0px 1px 1px;
+}
+
+.pro3{
+padding-left: 9px;
+background-color: rgb(126, 124, 124);
+color: white;
+border-radius: 4px;
+}
+
+.pro4{
+padding-left: 14px;
+background-color: rgb(76, 240, 213);
+border-radius: 6px;
+}
+.pro4:hover{
+box-shadow: 0px 0px 1px 1px;
+}
+
+.pro5{
+padding-left: 15px;
+border-radius: 8px;
+border-color: rgb(134, 2, 2);
+background-color: rgb(247, 128, 128);
+}
+.pro5:hover{
+box-shadow: 0px 0px 1px 1px;
+}
+
+/* ---------------------------------------------- */
